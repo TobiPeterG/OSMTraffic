@@ -19,7 +19,7 @@ Backend Technologies
 - Caching: Implement caching of traffic data using Redis, with an efficient eviction policy to keep recent traffic updates available without constantly requesting external APIs.
 Data Aggregation: Combine traffic data from different sources (Datex2 and others) into a standard response format like GeoJSON for ease of integration on the client-side.
 
-Key Challenges
+### Key Challenges
 - Mapping Real-World Data to OSM: One major challenge is ensuring that traffic data received from various sources (Datex2, APIs) accurately maps to road segments in OpenStreetMap (OSM). This includes handling mismatches in road names or coordinates.
 - Handling Quota Limits: Datex2 and other APIs may have rate limits. The system must handle these limitations through caching and efficient data request strategies.
 - Data Precision: Traffic data is collected every 5-10 minutes, so ensuring timely updates and reflecting changes in traffic conditions is key for accuracy.
@@ -90,6 +90,9 @@ The server can be adapted to support other OpenStreetMap-based apps like Organic
 - Organic Maps GitHub: https://github.com/organicmaps/organicmaps
 - Redis Documentation: https://redis.io/documentation
 - Golang Documentation: https://golang.org/doc/
+### Similar projects
+- TrafficPixels (velocity based traffic): https://trafficpixel.tk/trafficSql/introductionTrafficSql.php
+- Open Traffic Collection (Traffic information sources): https://github.com/graphhopper/open-traffic-collection
 
 ## Collaborators
 Open to contributions from the community, especially those familiar with Datex2 and traffic data systems.
