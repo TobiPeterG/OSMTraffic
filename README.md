@@ -18,6 +18,7 @@ Backend Technologies
 - HTTP Routing: Use Chi or standard net/http in Go for routing API requests.
 - Caching: Implement caching of traffic data using Redis, with an efficient eviction policy to keep recent traffic updates available without constantly requesting external APIs.
 Data Aggregation: Combine traffic data from different sources (Datex2 and others) into a standard response format like GeoJSON for ease of integration on the client-side.
+
 Key Challenges
 - Mapping Real-World Data to OSM: One major challenge is ensuring that traffic data received from various sources (Datex2, APIs) accurately maps to road segments in OpenStreetMap (OSM). This includes handling mismatches in road names or coordinates.
 - Handling Quota Limits: Datex2 and other APIs may have rate limits. The system must handle these limitations through caching and efficient data request strategies.
