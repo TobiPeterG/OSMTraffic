@@ -88,6 +88,9 @@ The server can be adapted to support other OpenStreetMap-based apps like Organic
 - **Language:** Golang is the primary language for backend development, with Redis for caching.
 - **Documentation:** Comprehensive documentation for setup, configuration, and API endpoints will be provided.
 
+### Current progress
+- **Server prototype:** https://github.com/TobiPeterG/OSMTraffic-server
+
 ## Resources and References
 - Datex2 Documentation: https://datex2.eu/
 - Organic Maps GitHub: https://github.com/organicmaps/organicmaps
