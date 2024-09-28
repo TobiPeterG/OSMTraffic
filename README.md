@@ -97,6 +97,7 @@ The server can be adapted to support other OpenStreetMap-based apps like Organic
 - Redis Documentation: https://redis.io/documentation
 - Golang Documentation: https://golang.org/doc/
 ### Similar projects
+- Traff (traffic feed format, similar ambitions): https://gitlab.com/traffxml/
 - TrafficPixels (velocity based traffic): https://trafficpixel.tk/trafficSql/introductionTrafficSql.php
 - Open Traffic Collection (Traffic information sources): https://github.com/graphhopper/open-traffic-collection
 
